@@ -1,0 +1,43 @@
+name: learn-github-actions
+
+# the below event could also be written as
+# on: [push] (an event which run on all push events)
+
+on:
+  push:
+    branches: [main] # this event runs on push event only on main branch
+  workflow_dispatch: #to manually dispatch
+
+permissions:
+ contents: write # this code gives permission to the workflow to write
+
+jobs:
+  build_and_deploy:
+    runs-on: ubuntu-latest
+
+    #these are actions we write which we want to execute in our pipeline
+    # we can pass the array of actions as well
+    steps:
+      # these actions are preWritten set of code which we use to avoid writing lengthy or complex set of code
+      #for this we use uses
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        #to customize the action with additional parameters
+        with:
+          node-version: 20.14.0
+
+          # to execute the shell commands we use the run
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build
+        run: npm run build
+
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4
+         with:
+          branch: gh-pages
+          folder: build

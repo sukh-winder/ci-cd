@@ -1,4 +1,4 @@
-name: learn-github-actions
+name: CI/CD for React App
 # the below event could also be written as
 # on: [push] (an event which run on all push events)
 on:

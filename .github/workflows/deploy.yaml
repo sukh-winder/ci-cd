@@ -1,8 +1,6 @@
 name: learn-github-actions
-
 # the below event could also be written as
 # on: [push] (an event which run on all push events)
-
 on:
   push:
     branches: [main] # this event runs on push event only on main branch
@@ -28,8 +26,8 @@ jobs:
         #to customize the action with additional parameters
         with:
           node-version: 20.14.0
-
           # to execute the shell commands we use the run
+
       - name: Install dependencies
         run: npm install
 

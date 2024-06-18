@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          {process.env.LEARN_CI_CD || "Github Actions Tutorials"}
+          {process.env.LEARN_CI_CD || "Github Actions Tutorial"}
         </a>
       </header>
     </div>

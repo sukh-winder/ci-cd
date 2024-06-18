@@ -2,6 +2,7 @@ import logo from "./logo.svg";
 import "./App.css";
 
 function App() {
+  console.log("env from github", process.env?.LEARN_CI_CD);
   return (
     <div className="App">
       <header className="App-header">
@@ -15,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          {process.env.LEARN_CI_CD || "Github Actions Tutorial"}
+          {process.env?.LEARN_CI_CD || "Github Actions Tutorial"}
         </a>
       </header>
     </div>

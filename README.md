@@ -3,11 +3,11 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
  <!-- YOUTUBE:START -->
-- [#2 Getting Started with AWS: Create Free AWS Account | AWS Tutorials for Absolute Beginners in Hindi](https://www.youtube.com/watch?v=53nNg7X86yc)
-- [#1 What is AWS? Why to learn? What&#39;s Cloud Computing? | AWS 101 | AWS for Absolute Beginners](https://www.youtube.com/watch?v=S0pHo5rhsxE)
-- [Terraform Dynamic Block Explained with Demo in Hindi | What are Dynamic Blocks in Terraform?](https://www.youtube.com/watch?v=4wGTVBzQYDs)
-- [Data Sources in Terraform | Use terraform data source to fetch aws ami ids  | Terraform Tutorials](https://www.youtube.com/watch?v=_NU3jIwvPGs)
-- [Terraform Local Values Explained | Locals in Terraform | Terraform Tutorials in Hindi](https://www.youtube.com/watch?v=ldK_98oPjMc)
+- [Kubernetes Quiz: Testing Your Skills with MCQs #shorts #devops #kubernetes #devopspro](https://www.youtube.com/watch?v=63Lwjv0_Qc4)
+- [Named Templates in Helm Charts | Helm Charts with Named Templates | Named Templates in Helm Charts](https://www.youtube.com/watch?v=E7V9LJCjoUU)
+- [Range in Helm Chart | Use Range Block in Helm | Advanced Helm Tutorial in Hindi | Helm Range Blocks](https://www.youtube.com/watch?v=MHLqyj-k_As)
+- [With Block in Helm | Advanced Helm Tutorials | Use with in helm chart | Flow Controls in Helm | Helm](https://www.youtube.com/watch?v=XVX50_zq8Bc)
+- [If-Else Conditions in Helm Templates | Helm Template If-Else Tutorial | Helm Advance Tutorial](https://www.youtube.com/watch?v=CFFUu9LyJ7w)
 <!-- YOUTUBE:END -->
 
 ## Available Scripts
